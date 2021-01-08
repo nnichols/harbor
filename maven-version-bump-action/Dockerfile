@@ -8,6 +8,7 @@ LABEL "com.github.actions.icon"="git-commit"
 LABEL "repository"="https://github.com/nnichols/maven-version-bump-action"
 LABEL "homepage"="https://github.com/nnichols"
 LABEL "maintainer"="Nick Nichols <nichols1991@gmail.com>"
+LABEL "version"="v1.0.0"
 
 RUN apt-get update
 RUN apt-get install --no-install-recommends -y gnupg2 software-properties-common git

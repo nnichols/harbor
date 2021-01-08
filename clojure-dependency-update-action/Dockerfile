@@ -8,6 +8,7 @@ LABEL "com.github.actions.icon"="git-pull-request"
 LABEL "repository"="https://github.com/nnichols/clojure-dependency-update-action"
 LABEL "homepage"="https://github.com/nnichols"
 LABEL "maintainer"="Nick Nichols <nichols1991@gmail.com>"
+LABEL "version"="v1.0.0"
 
 RUN apt update -y
 RUN apt install --no-install-recommends -y gnupg2 software-properties-common
